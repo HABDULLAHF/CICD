@@ -1,15 +1,11 @@
---- 
-
+---
 name: "firstworkflow with devops class"
 run-name: |
-
       "firstworkflow with devops class triggered by ${{github.actor}}
       with ${{github.event_name}} event
       on branch ${{github.repository}}"
 on:
-
 push:
-
    branches:
      - main
 pull_request:
